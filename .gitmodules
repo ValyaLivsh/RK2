@@ -1,0 +1,3 @@
+[submodule "Singleton Design Pattern/third-party/gtest"]
+	path = Singleton Design Pattern/third-party/gtest
+	url = https://github.com/google/googletest
