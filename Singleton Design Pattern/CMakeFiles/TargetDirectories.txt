@@ -1,0 +1,4 @@
+/home/valya/rk2/designpattern/Singleton Design Pattern/CMakeFiles/lib.dir
+/home/valya/rk2/designpattern/Singleton Design Pattern/CMakeFiles/main.dir
+/home/valya/rk2/designpattern/Singleton Design Pattern/CMakeFiles/edit_cache.dir
+/home/valya/rk2/designpattern/Singleton Design Pattern/CMakeFiles/rebuild_cache.dir
