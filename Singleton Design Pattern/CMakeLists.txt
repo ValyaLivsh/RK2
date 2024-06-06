@@ -13,7 +13,7 @@ include_directories(${PROJECT_SOURCE_DIR})
 # Add source files
 set(SOURCES
     main.cpp
-    logger.cpp
+    Logger.cpp
 )
 
 # Add executable
