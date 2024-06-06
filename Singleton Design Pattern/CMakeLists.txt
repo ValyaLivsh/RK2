@@ -1,9 +1,24 @@
-if(BUILD_TESTS)
-  enable_testing()
-  add_subdirectory(third-party/gtest)
-  file(GLOB ${Project}_TEST_SOURCES tests/*.cpp)
-  add_executable(check ${\${Project}_TEST_SOURCES})
-  target_link_libraries(check ${Project} gtest_main)
-  add_test(NAME check COMMAND check)
-endif()
+cmake_minimum_required(VERSION 3.10)
 
+# Project name
+project(Singleton Design Pattern)
+
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+# Include directories
+include_directories(${PROJECT_SOURCE_DIR})
+
+# Add source files
+set(SOURCES
+    main.cpp
+    logger.cpp
+)
+
+# Add executable
+add_executable(Singleton Design Pattern ${SOURCES})
+
+enable_testing()
+
+add_subdirectory(tests)
